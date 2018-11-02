@@ -21,14 +21,8 @@ sigma2 = zeros(n, 1);
 %               should contain variance of the i-th feature.
 %
 
-
-
-
-
-
-
-
-
+mu = mean(X)';
+sigma2 = var(X, 1)'; # use 1/m instead of 1/(m-1)
 
 % =============================================================
 
